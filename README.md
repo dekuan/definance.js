@@ -71,7 +71,7 @@ kdj( arrClose, arrLow, arrHigh, nPeriod, nKSmaPeriod, nDSmaPeriod ).then( oValue
 
 will outputs
 
-```JSON
+```
 { K:
    [ null,
      null,
