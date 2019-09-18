@@ -1,6 +1,6 @@
 {
 	"name": "definance.js",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Financial utilities for calculating KDJ, MACD, RSI, DMI indicators by DeKuan, Inc.",
 	"author": "XING <dev@dekuan.org>",
 	"main": "index.js",
