@@ -1,0 +1,30 @@
+{
+	"name": "definance.js",
+	"version": "1.0.1",
+	"description": "Financial utilities for calculating KDJ, MACD, RSI, DMI indicators by DeKuan, Inc.",
+	"author": "XING <dev@dekuan.org>",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [
+		"KDJ",
+		"MACD",
+		"RSI",
+		"DMI"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:dekuan/definance.js.git"
+	},
+	"browser": {
+		"request": "browser-request"
+	},
+	"dependencies": {
+		"assert": "^1.4.1",
+		"mocha": "^5.2.0"
+	},
+	"devDependencies": {
+		"assert": "^1.4.1",
+		"mocha": "^5.2.0"
+	},
+	"license": "MIT"
+}
