@@ -1,0 +1,27 @@
+{
+	"name": "deutils.js",
+	"version": "1.0.22",
+	"description": "Utils in Node.js by DeKuan, Inc.",
+	"author": "XING <dev@dekuan.org>",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [
+		"deutils.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:dekuan/deutils.js.git"
+	},
+	"browser": {
+		"request": "browser-request"
+	},
+	"dependencies": {
+		"assert": "^1.4.1",
+		"mocha": "^5.2.0"
+	},
+	"devDependencies": {
+		"assert": "^1.4.1",
+		"mocha": "^5.2.0"
+	},
+	"license": "MIT"
+}
