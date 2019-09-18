@@ -1,2 +1,3 @@
-# de-kdj
-A utility method to calculate the KDJ indicator by DeKuan, Inc.
+# definance
+
+Financial utilities for calculating KDJ, MACD, RSI, DMI indicators by DeKuan, Inc.
