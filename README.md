@@ -67,11 +67,11 @@ kdj( arrClose, arrLow, arrHigh, nPeriod, nKSmaPeriod, nDSmaPeriod ).then( oValue
 {
 	console.error( err );
 });
+```
 
+will outputs
 
-//
-//  will output
-//
+```JSON
 { K:
    [ null,
      null,
