@@ -1,16 +1,19 @@
 {
-	"name": "deutils.js",
-	"version": "1.0.22",
-	"description": "Utils in Node.js by DeKuan, Inc.",
+	"name": "definance.js",
+	"version": "1.0.0",
+	"description": "Financial utilities for calculating KDJ, MACD, RSI, DMI indicators by DeKuan, Inc.",
 	"author": "XING <dev@dekuan.org>",
 	"main": "index.js",
 	"scripts": {},
 	"keywords": [
-		"deutils.js"
+		"KDJ",
+		"MACD",
+		"RSI",
+		"DMI"
 	],
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:dekuan/deutils.js.git"
+		"url": "git@github.com:dekuan/definance.js.git"
 	},
 	"browser": {
 		"request": "browser-request"
