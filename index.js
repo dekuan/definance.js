@@ -1,4 +1,9 @@
-const { DeKDJ }		= require( './src/dekdj' );
+const kdj	= require( './src/kdj' );
+const ma	= require( './src/ma' );
+const dma	= require( './src/dma' );
+const ema	= require( './src/ema' );
+const sma	= require( './src/sma' );
+const wma	= require( './src/wma' );
 
 
 
@@ -8,5 +13,10 @@ const { DeKDJ }		= require( './src/dekdj' );
  */
 module.exports	=
 {
-	kdj	: DeKDJ.kdj,
+	kdj	: kdj.calculator,
+	ma	: ma.calculator,
+	dma	: dma.calculator,
+	ema	: ema.calculator,
+	sma	: sma.calculator,
+	wma	: wma.calculator,
 };

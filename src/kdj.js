@@ -6,7 +6,7 @@ const LibKDJ	= require( './libs/LibKDJ' );
 /**
  *	Library
  */
-class DeKDJ
+class kdj
 {
 	constructor()
 	{
@@ -23,7 +23,7 @@ class DeKDJ
 	 *	@param	{number}	nDSmaPeriod	- the time periods to calculate the moving average for %D. Defaults to 3
 	 *	@return {Promise<{ K: Array, D: Array, J: Array, Ks: Array, Ds: Array}>}
 	 */
-	static kdj( arrClose, arrLow, arrHigh, nPeriod, nKSmaPeriod, nDSmaPeriod )
+	static calculator( arrClose, arrLow, arrHigh, nPeriod, nKSmaPeriod, nDSmaPeriod )
 	{
 		//
 		//	try to fix parameters with the default values if needed.
@@ -39,11 +39,7 @@ class DeKDJ
 
 
 
-
 /**
  *	exports
  */
-module.exports	=
-{
-	DeKDJ	: DeKDJ
-};
+module.exports	= kdj;

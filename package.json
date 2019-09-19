@@ -1,7 +1,7 @@
 {
 	"name": "definance.js",
-	"version": "1.0.5",
-	"description": "Financial utilities for calculating KDJ, MACD, RSI, DMI indicators by DeKuan, Inc.",
+	"version": "1.0.6",
+	"description": "Financial utilities for calculating MA, DMA, EMA, SMA, WMA, KDJ, MACD, RSI, DMI indicators by DeKuan, Inc.",
 	"author": "XING <dev@dekuan.org>",
 	"main": "index.js",
 	"scripts": {},
@@ -9,7 +9,12 @@
 		"KDJ",
 		"MACD",
 		"RSI",
-		"DMI"
+		"DMI",
+		"MA",  "Simple Moving Average",
+		"DMA", "Dynamic Weighted Moving Average",
+		"EMA", "Exponential Moving Average",
+		"SMA", "Smoothed Moving Average",
+		"WMA", "Weighted Moving Average"
 	],
 	"repository": {
 		"type": "git",

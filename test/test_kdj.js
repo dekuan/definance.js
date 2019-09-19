@@ -1,5 +1,5 @@
 const assert		= require( 'assert' );
-const { DeKDJ }		= require( '../src/dekdj' );
+const { kdj }		= require( '../src/kdj' );
 
 
 const g_oSource	= {
@@ -10,11 +10,11 @@ const g_oSource	= {
 
 
 
-describe( 'DeKDJ.test', () =>
+describe( 'kdj.test', () =>
 {
 	it( 'basic testing', ( pfnDone ) =>
 	{
-		DeKDJ.kdj( g_oSource.close, g_oSource.low, g_oSource.high, 9, 3, 3 ).then( oValues =>
+		kdj( g_oSource.close, g_oSource.low, g_oSource.high, 9, 3, 3 ).then( oValues =>
 		{
 			assert.equal( true, Array.isArray( oValues.K ) && oValues.K.length > 0 );
 			assert.equal( true, Array.isArray( oValues.D ) && oValues.D.length > 0 );
@@ -41,7 +41,7 @@ describe( 'DeKDJ.test', () =>
 
 	it( 'return values testing', ( pfnDone ) =>
 	{
-		DeKDJ.kdj( g_oSource.close, g_oSource.low, g_oSource.high, 9, 3, 3 ).then( oValues =>
+		kdj( g_oSource.close, g_oSource.low, g_oSource.high, 9, 3, 3 ).then( oValues =>
 		{
 			//	...
 			const pfnVerification	= ( nElement ) =>
