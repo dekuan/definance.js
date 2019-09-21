@@ -14,7 +14,7 @@ describe( 'ma.test', () =>
 {
 	it( 'basic testing', ( pfnDone ) =>
 	{
-		ma.calculator( g_oSource.close, 12 ).then( arrValues =>
+		ma.calculate( g_oSource.close, 12 ).then( arrValues =>
 		{
 			// assert.equal( true, Array.isArray( oValues.K ) && oValues.K.length > 0 );
 			// assert.equal( true, Array.isArray( oValues.D ) && oValues.D.length > 0 );

@@ -23,14 +23,14 @@ class sma
 	 *	@param	{number}	nTimes
 	 *	@return {Promise<array>}
 	 */
-	static calculator( arrData, nSize, nTimes )
+	static calculate( arrData, nSize, nTimes )
 	{
 		if ( undefined === nTimes )
 		{
 			nTimes = 1;
 		}
 
-		return dma.calculator( arrData, nTimes / nSize, true );
+		return dma.calculate( arrData, nTimes / nSize, true );
 	}
 }
 

@@ -21,7 +21,7 @@ class ma
 	 *	@param	{number}	nSize
 	 *	@return {Promise<array>}
 	 */
-	static calculator( arrData, nSize )
+	static calculate( arrData, nSize )
 	{
 		return new Promise( async ( pfnR, pfnReject ) =>
 		{

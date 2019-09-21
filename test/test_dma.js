@@ -14,7 +14,7 @@ describe( 'ema.test', () =>
 {
 	it( 'basic testing', ( pfnDone ) =>
 	{
-		dma.calculator( g_oSource.close, 9, undefined ).then(arrValues =>
+		dma.calculate( g_oSource.close, 9, undefined ).then(arrValues =>
 		{
 			// assert.equal( true, Array.isArray( oValues.K ) && oValues.K.length > 0 );
 			// assert.equal( true, Array.isArray( oValues.D ) && oValues.D.length > 0 );

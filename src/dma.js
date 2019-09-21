@@ -26,7 +26,7 @@ class dma
 	 * 	Dynamic weights: an array of weights
 	 * 	https://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average
 	 */
-	static calculator( arrData, fAlpha, bNoHead )
+	static calculate( arrData, fAlpha, bNoHead )
 	{
 		return new Promise( async ( pfnR, pfnReject ) =>
 		{

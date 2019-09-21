@@ -24,7 +24,7 @@ class wma
 	 * 	@ref
 	 * 	https://en.wikipedia.org/wiki/Moving_average
 	 */
-	static calculator( arrData, nSize )
+	static calculate( arrData, nSize )
 	{
 		return new Promise( async ( pfnR, pfnReject ) =>
 		{

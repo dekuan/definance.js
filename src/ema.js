@@ -27,9 +27,9 @@ class ema
 	 * 	Exponential moving average
 	 * 	https://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average
 	 */
-	static calculator( arrData, nSize )
+	static calculate( arrData, nSize )
 	{
-		return dma.calculator( arrData, 2 / ( nSize + 1 ), undefined );
+		return dma.calculate( arrData, 2 / ( nSize + 1 ), undefined );
 	}
 }
 

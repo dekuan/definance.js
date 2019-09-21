@@ -23,7 +23,7 @@ class kdj
 	 *	@param	{number}	nDSmaPeriod	- the time periods to calculate the moving average for %D. Defaults to 3
 	 *	@return {Promise<{ K: Array, D: Array, J: Array, Ks: Array, Ds: Array}>}
 	 */
-	static calculator( arrClose, arrLow, arrHigh, nPeriod, nKSmaPeriod, nDSmaPeriod )
+	static calculate( arrClose, arrLow, arrHigh, nPeriod, nKSmaPeriod, nDSmaPeriod )
 	{
 		//
 		//	try to fix parameters with the default values if needed.

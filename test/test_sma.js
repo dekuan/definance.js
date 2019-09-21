@@ -14,7 +14,7 @@ describe( 'sma.test', () =>
 {
 	it( 'basic testing', ( pfnDone ) =>
 	{
-		sma.calculator( g_oSource.close, 12, undefined ).then( arrValues =>
+		sma.calculate( g_oSource.close, 12, undefined ).then( arrValues =>
 		{
 			// assert.equal( true, Array.isArray( oValues.K ) && oValues.K.length > 0 );
 			// assert.equal( true, Array.isArray( oValues.D ) && oValues.D.length > 0 );

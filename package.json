@@ -10,11 +10,16 @@
 		"MACD",
 		"RSI",
 		"DMI",
-		"MA",  "Simple Moving Average",
-		"DMA", "Dynamic Weighted Moving Average",
-		"EMA", "Exponential Moving Average",
-		"SMA", "Smoothed Moving Average",
-		"WMA", "Weighted Moving Average"
+		"MA",
+		"Simple Moving Average",
+		"DMA",
+		"Dynamic Weighted Moving Average",
+		"EMA",
+		"Exponential Moving Average",
+		"SMA",
+		"Smoothed Moving Average",
+		"WMA",
+		"Weighted Moving Average"
 	],
 	"repository": {
 		"type": "git",

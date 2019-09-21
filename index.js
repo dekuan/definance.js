@@ -13,10 +13,10 @@ const wma	= require( './src/wma' );
  */
 module.exports	=
 {
-	kdj	: kdj.calculator,
-	ma	: ma.calculator,
-	dma	: dma.calculator,
-	ema	: ema.calculator,
-	sma	: sma.calculator,
-	wma	: wma.calculator,
+	kdj	: kdj.calculate,
+	ma	: ma.calculate,
+	dma	: dma.calculate,
+	ema	: ema.calculate,
+	sma	: sma.calculate,
+	wma	: wma.calculate,
 };
