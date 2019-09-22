@@ -32,13 +32,18 @@ class rsi
 		{
 			try
 			{
-				if ( ! Array.isArray( arrData ) || 0 === arrData.length )
+				if ( ! Array.isArray( arrData ) )
 				{
-					return pfnReject( `invalid arrData, require an array with numeric data` );
+					return pfnReject( `call calculate with invalid arrData, require an array with numeric data` );
 				}
 				if ( ! isNumber( nPeriod ) || nPeriod <= 0 )
 				{
-					return pfnReject( `invalid nPeriod, require a number with its value should greater than 0.` );
+					return pfnReject( `call calculate with invalid nPeriod, require a number with its value should greater than 0.` );
+				}
+
+				if ( 0 === arrData.length )
+				{
+					return pfnR( [] );
 				}
 
 				//	...
@@ -70,9 +75,9 @@ class rsi
 		{
 			try
 			{
-				if ( ! Array.isArray( arrData ) || 0 === arrData.length )
+				if ( ! Array.isArray( arrData ) )
 				{
-					return pfnReject( `invalid arrData, require an array with data.` );
+					return pfnReject( `call _lossOrGain with invalid arrData, require an array with data.` );
 				}
 
 				let arrResults	= [];
